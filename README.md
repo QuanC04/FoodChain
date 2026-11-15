@@ -1,14 +1,8 @@
-# Billet
+# Bếp Việt
 
-Billet is a visual expense journal: **Locket meets Money Tracker**. Photos and captions preserve the context of everyday spending, while expense totals and patterns help users understand their habits.
+Hệ thống Quản lý Chuỗi Nhà Hàng Bếp Việt. Phục vụ vận hành nhiều chi nhánh, quản lý thực đơn, nhân sự, đơn hàng, giao hàng, khách hàng, khuyến mãi, đánh giá và báo cáo.
 
-## Product direction
-
-- Capture a photo, accept it, enter an amount, and save the expense.
-- Revisit expenses through a visual journal, calendar, and spending reports.
-- Keep manual entry available; image recognition supports the flow without blocking it or overwriting user input.
-
-Feature scope and acceptance criteria are maintained in the [business requirements](./docs/business-requirements.md).
+Chi tiết đặc tả yêu cầu nghiệp vụ xem tại: [Business Requirements](./docs/business-requirements.md).
 
 ## Project structure
 

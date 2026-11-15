@@ -1,16 +1,15 @@
-# Billet agent guide
+# Bếp Việt agent guide
 
 These instructions apply to the entire repository. More specific `AGENTS.md` files may extend them for a subtree.
 
-## Product context
+## Product context & Core Identity
 
-Billet is a visual expense journal: “Locket meets Money Tracker.” The product should make capture feel immediate and personal while deriving structured expense data and statistics in the background.
-
-## Local development account
-
-- Seed account username: `devt`.
-- Seed account password: `devt`.
-- These are local development fixture credentials. Keep the sample seed and its documentation consistent with this account.
+- **Tên dự án**: Hệ thống Quản lý Chuỗi Nhà Hàng Bếp Việt.
+- **Quy ước hiện trạng**: Dự án đang được xây dựng trên base kỹ thuật (monorepo NestJS + React + React Native Expo + PostgreSQL). **Mọi mã nguồn và tính năng cũ liên quan đến `billet` (sổ thu chi, OCR hóa đơn, locket...) đều coi như chưa triển khai hoặc là phần khung boilerplate tham khảo**. Mọi logic nghiệp vụ mới đều phải bám sát đặc tả hệ thống Bếp Việt trong `docs/business-requirements.md`.
+- **Phạm vi nghiệp vụ Bếp Việt**: Quản lý chuỗi chi nhánh (Branch), thực đơn & tùy chọn món (Dish & Options), nhân sự & phân ca (Employee & Shift & Permissions), đặt món & vòng đời đơn hàng (Order & Delivery DINE_IN/ONLINE/DELIVERY), khách hàng & CRM tích điểm (Customer & Tier), khuyến mãi (Promotion), đánh giá (Review) và báo cáo doanh thu/lợi nhuận.
+- **Quy tắc làm việc & phản hồi**:
+  1. Trước mỗi câu trả lời hoặc thao tác, luôn đọc và rà soát kỹ các phần liên quan trong dự án.
+  2. **Không tự ý code ngay**: Luôn đưa ra phân tích, đề xuất kiến trúc và các phương án gợi ý để người dùng chốt trước, khi người dùng đồng ý mới bắt đầu viết code.
 
 ## Architecture rules
 
